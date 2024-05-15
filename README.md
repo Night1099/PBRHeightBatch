@@ -10,7 +10,7 @@ Git
 
 1. Install [Cuda Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive).
 
-2. Open Terminal in folder you want to install into (Shift Rightclick in file explorer)
+2. Open Terminal in folder you want to install into (Shift Rightclick in file explorer)<br>
 Run
 
 ```
@@ -36,6 +36,6 @@ parser.add_argument("--append", type=str, default='', help="String to append to 
 ```
 By default the output file will be same name as input but with --append you can add any string onto end of name
 
-ie 
---append _height
+ie <br>
+--append _height <br>
 will turn panel.png into panel_height.png
