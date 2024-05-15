@@ -3,7 +3,7 @@
 
 ## Prerequisites
 
-Python
+Python <br>
 Git
 
 ## Install guide
