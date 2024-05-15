@@ -6,7 +6,7 @@
 Python <br>
 Git
 
-## Install guide
+## Install
 
 1. Install [Cuda Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive).
 
