@@ -1,12 +1,12 @@
-#PBRHeightBatch
+# PBRHeightBatch
 
 
-##Prerequisites
+## Prerequisites
 
 Python
 Git
 
-##Install guide
+## Install guide
 
 1. Install [Cuda Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive).
 
@@ -20,7 +20,7 @@ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.o
 pip install -U requirements.txt
 ```
 
-##Running
+## Running
 
 Example command
 ```
