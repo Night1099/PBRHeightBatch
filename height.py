@@ -52,17 +52,26 @@ for filename in os.listdir(args.input_dir):
             control_image = control_image.copy()
             ip_image = ip_image.copy()
 
-        image = pipe(
-            prompt,
-            negative_prompt=negative_prompt,
-            num_inference_steps=5,
-            generator=generator,
-            image=control_image,
-            ip_adapter_image=ip_image,
-            controlnet_conditioning_scale=0.7,
-            guidance_scale=4,
-            scheduler=pipe.scheduler,
-        ).images[0]
+        # Skip tiny images
+        if control_image.size[0] < 512 or control_image.size[1] < 512:
+            print(f"Skipping {filename} because it is too small.")
+            continue
+
+        try:
+            image = pipe(
+                prompt,
+                negative_prompt=negative_prompt,
+                num_inference_steps=5,
+                generator=generator,
+                image=control_image,
+                ip_adapter_image=ip_image,
+                controlnet_conditioning_scale=0.7,
+                guidance_scale=4,
+                scheduler=pipe.scheduler,
+            ).images[0]
+        except ValueError as e:
+            print(f"Error processing {filename}: {e}")
+            continue
 
         image = ImageOps.grayscale(image)
         image = image.filter(ImageFilter.GaussianBlur(radius=1))
