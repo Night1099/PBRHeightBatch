@@ -17,7 +17,7 @@ Run
 git clone https://github.com/Night1099/PBRHeightBatch
 cd PBRHeightBatch
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-pip install -U requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Running
