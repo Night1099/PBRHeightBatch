@@ -50,7 +50,7 @@ All Binaries Included, extra model files it downloads will downlaod into portabl
 
 to run
 
-Open terminal in direcotry with height.exe
+Open terminal in directory with height.exe
 
 Example Command
 ```
