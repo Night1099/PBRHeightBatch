@@ -46,7 +46,7 @@ will turn panel.png into panel_height.png
 
 # Portable Instructions
 
-All Binaries Included, extra model files it downloads will downlaod into portable package /_internal/data
+All Binaries Included, extra model files it downloads will download into portable package /_internal/data
 
 to run
 
