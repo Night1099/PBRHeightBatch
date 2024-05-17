@@ -48,6 +48,8 @@ will turn panel.png into panel_height.png
 
 All Binaries Included, extra model files it downloads will download into portable package /_internal/data
 
+Download from [Huggingface](https://huggingface.co/NightRaven109/ControlnetHeightPBR/blob/main/PBRHeightBatchPortable.zip) Github only alows 2gb files max  
+
 to run
 
 Open terminal in directory with height.exe
