@@ -27,7 +27,7 @@ Example command
 python height.py --input_dir input --output_dir output
 ```
 
-extra args
+extra args _
 ```
 ("--seed", type=int, default=random.randint(0, 100000), help="Seed for inference")
 ("--input_dir", type=str, required=True, help="Directory containing input images")
@@ -41,3 +41,18 @@ By default the output file will be same name as input but with --append you can 
 ie <br>
 --append _height <br>
 will turn panel.png into panel_height.png
+
+
+
+# Portable Instructions
+
+All Binaries Included, extra model files it downloads will downlaod into portable package /_internal/data
+
+to run
+
+Open terminal in direcotry with height.exe
+
+Example Command
+```
+.\height.exe --input_dir input --output_dir output
+```
