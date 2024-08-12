@@ -1,3 +1,5 @@
+# I have Continued this project here https://huggingface.co/NightRaven109/PBRFusion
+
 # PBRHeightBatch
 
 ## Showcase https://imgsli.com/MjY0MjY3
